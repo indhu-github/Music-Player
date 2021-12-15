@@ -59,7 +59,7 @@ body{
     animation-play-state: paused;
 }
 
-.music-container.play .image-container img{
+.music-container.play .img-container img{
     animation-play-state: running;
 }
 
@@ -100,7 +100,7 @@ body{
     position: absolute;
     top:0;
     left:20px;
-    width: calc(100%-40px);
+    width: calc(100% - 40px);
     padding: 10px 10px 10px 150px;
     opacity: 0;
     transform: translateY(0%);
